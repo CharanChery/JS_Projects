@@ -8,28 +8,32 @@
 .logo a {
   font-size: 33px;
   color: #fff;
+  pointer-events: none;
 }
-.navbar {
-  background: black;
-  padding: 20px 15px;
-}
-.navdiv{
+.navdiv {
   display: flex;
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
 }
-
-li{
+.navbar {
+  background: black;
+  padding: 20px 15px;
+}
+.navbar li {
   list-style: none;
   display: inline-block;
 }
 .navbar a{
   color: white;
   margin-right: 15px;
+  padding: 0 15px;
 }
-.navbar a :hover{
-  background-color: white;
+
+.navdiv a:hover {
+  background: rgb(240, 0, 0);
+  transition: 0.3s;
+  width: 100px;
 }
 .Main {
   width: 100%;
