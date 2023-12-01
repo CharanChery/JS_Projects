@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Clock</title>
-    <link rel="stylesheet" href="clock.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,10 +13,23 @@
     />
     <!-- <script defer src="https://pyscript.net/alpha/pyscript.js"></script> -->
   </head>
+  <header>
+    <nav class="navbar">
+      <div class="navdiv">
+        <div class="logo">
+          <a href="#">Enthusiastic Alarm</a>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Weather</a></li>
+          <li><a href="#">About Dev</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <body>
     <div class="Main">
       <div class="container">
-        <h1><b>Clock Using JS...</b></h1>
         <div class="clock">
           <span id="hrs"></span>
           <span>:</span>
@@ -35,7 +48,7 @@
         </div>
       </div>
     </div>
-    <script src="clock.js"></script>
+    <script src="script.js"></script>
     <!-- <b
       ><p>
         Today is <u><label id="today"></label></u></p

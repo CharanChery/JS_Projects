@@ -14,6 +14,6 @@ setInterval(() => {
   sec.innerHTML = (clock.getSeconds() < 10 ? "0" : "") + clock.getSeconds();
   date.innerHTML = clock.getDate();
   day.innerHTML = clock.getDay();
-  month.innerHTML = clock.getMonth();
+  month.innerHTML = clock.getMonth() + 1;
   year.innerHTML = clock.getFullYear();
 }, 1000);

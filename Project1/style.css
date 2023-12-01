@@ -3,11 +3,42 @@
   padding: 0;
   font-family: "Cinzel Decorative", cursive;
   box-sizing: border-box;
+  text-decoration: none;
+}
+.logo a {
+  font-size: 33px;
+  color: #fff;
+}
+.navbar {
+  background: black;
+  padding: 20px 15px;
+}
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar a{
+  color: white;
+  margin-right: 15px;
+}
+.navbar a :hover{
+  background-color: white;
 }
 .Main {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(45deg, #7a5cd3, #a6b471);
+  /* background: linear-gradient(45deg, #7a5cd3, #a6b471); */
+  background-image: url("1.chevanon-photography.jpg");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   position: relative;
 }
@@ -20,7 +51,7 @@
   transform: translate(-50%, -50%);
 }
 .container h1 {
-  color: rgb(10, 9, 0);
+  color: rgb(255, 31, 31);
   text-align: center;
   font-size: 50px;
   letter-spacing: 6px;
@@ -44,7 +75,7 @@
   border-radius: 20px;
   position: absolute;
   right: -230px;
-  top: -2px;
+  top: -90px;
   z-index: -1;
 }
 .container::after {
@@ -54,8 +85,8 @@
   background: #ffa600;
   border-radius: 20px;
   position: absolute;
-  left: -80px;
-  bottom: -350px;
+  left: -85px;
+  bottom: -300px;
   z-index: -1;
 }
 .clock span {
